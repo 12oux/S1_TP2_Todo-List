@@ -1,0 +1,96 @@
+body {
+  background-image: url("../TP2_Benoit_Robichaud/Icons/BG.jpg");
+  max-width: 1600px;
+  max-height: 1000px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+  background-color: white;
+  width: 600px;
+  height: auto;
+  text-align: center;
+  margin: 20px auto auto;
+  padding-bottom: 20px;
+}
+#edit {
+  padding: 5px;
+  outline: none;
+}
+#task {
+  text-align: center;
+  display: inline;
+  margin: 0 auto;
+  width: 300px;
+  height: 30px;
+  vertical-align: bottom;
+  font-size: 16px;
+}
+#taskBtn {
+  display: inline;
+  margin: 0 auto;
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: green;
+  font-size: 25px;
+  text-align: center;
+}
+#list {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#doneBtn {
+  display: inline-block;
+  margin: auto;
+  height: 30px;
+  width: auto;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+}
+#trashBtn {
+  display: inline-block;
+  margin: auto;
+  height: 30px;
+  width: auto;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+}
+#editBtn {
+  display: inline-block;
+  margin: auto;
+  height: 30px;
+  width: auto;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+}
+#doneBtn:hover {
+  background-color: chartreuse;
+}
+#trashBtn:hover {
+  background-color: red;
+}
+#editBtn:hover {
+  background-color: blue;
+}
